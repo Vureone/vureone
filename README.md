@@ -6,7 +6,7 @@
 #define Giris int main ()
 #endif
 
-#define Selam printf("Merhaba! ben Poyraz.\n")
+#define Selam printf("Selam! ben Poyraz.\n")
 
 #include <cstdio>
 

@@ -13,4 +13,7 @@
 Giris {
     Selam;
 }
+
+// main.cpp
+// gcc main.cpp -o vureone && ./vureone
 ```

@@ -1,14 +1,16 @@
 ```cpp
 #ifdef CEXPORT
-#define entrypoint __attribute__((constructor)) \
+#define Giris __attribute__((constructor)) \
                    void __constructor ()
 #else
-#define entrypoint int main ()
+#define Giris int main ()
 #endif
+
+#define Selam printf("Merhaba! ben Poyraz.")
 
 #include <cstdio>
 
-entrypoint {
-    printf( "Merhaba, ben Poyraz." );
+Giris {
+    Selam;
 }
 ```
